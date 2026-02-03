@@ -1,0 +1,55 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\journal{Applied Energy}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Title of the Paper}
+
+\author[inst1]{First Author}
+\author[inst1]{Second Author}
+\address[inst1]{Affiliation, City, Country}
+
+\begin{abstract}
+Write a concise abstract that summarizes the purpose, methods, key results, and implications.
+\end{abstract}
+
+\begin{keyword}
+Keyword1 \sep Keyword2 \sep Keyword3 \sep Keyword4
+\end{keyword}
+
+\end{frontmatter}
+
+\begin{highlights}
+\item Highlight 1 describing the main contribution.
+\item Highlight 2 describing the key method or data.
+\item Highlight 3 describing the main result or implication.
+\end{highlights}
+
+% If you plan to split the paper into multiple files later, you can us
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\section*{Acknowledgements}
+Add funding and contributions here.
+
+\section*{Data Availability}
+State where data and code can be accessed.
+
+\section*{Declaration of Competing Interest}
+Declare any conflicts of interest.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+\end{document}
